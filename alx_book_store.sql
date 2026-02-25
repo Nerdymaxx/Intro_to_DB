@@ -14,7 +14,7 @@ CREATE TABLE Books (
     FOREIGN KEY (author_id) REFERENCES Authors(author_id)
 );
 
-e
+
 CREATE TABLE Customers (
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
     customer_name VARCHAR(215) NOT NULL,
